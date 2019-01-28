@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB20CBC21FE75E60094D1E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB20CBB21FE75E60094D1E4 /* AppDelegate.swift */; };
+		CEB20CBE21FE75E60094D1E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB20CBD21FE75E60094D1E4 /* ViewController.swift */; };
+		CEB20CC121FE75E60094D1E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB20CBF21FE75E60094D1E4 /* Main.storyboard */; };
+		CEB20CC321FE75F20094D1E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB20CC221FE75F20094D1E4 /* Assets.xcassets */; };
+		CEB20CC621FE75F20094D1E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB20CC421FE75F20094D1E4 /* LaunchScreen.storyboard */; };
+		CEB20CD121FE75F30094D1E4 /* TIp_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB20CD021FE75F30094D1E4 /* TIp_APPTests.swift */; };
+		CEB20CDC21FE75F30094D1E4 /* TIp_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB20CDB21FE75F30094D1E4 /* TIp_APPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEB20CCD21FE75F30094D1E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB20CB021FE75E50094D1E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB20CB721FE75E60094D1E4;
+			remoteInfo = "TIp APP";
+		};
+		CEB20CD821FE75F30094D1E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB20CB021FE75E50094D1E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB20CB721FE75E60094D1E4;
+			remoteInfo = "TIp APP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEB20CB821FE75E60094D1E4 /* TIp APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TIp APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB20CBB21FE75E60094D1E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEB20CBD21FE75E60094D1E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEB20CC021FE75E60094D1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEB20CC221FE75F20094D1E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEB20CC521FE75F20094D1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEB20CC721FE75F20094D1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB20CCC21FE75F30094D1E4 /* TIp APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TIp APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB20CD021FE75F30094D1E4 /* TIp_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TIp_APPTests.swift; sourceTree = "<group>"; };
+		CEB20CD221FE75F30094D1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB20CD721FE75F30094D1E4 /* TIp APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TIp APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB20CDB21FE75F30094D1E4 /* TIp_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TIp_APPUITests.swift; sourceTree = "<group>"; };
+		CEB20CDD21FE75F30094D1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB20CB521FE75E60094D1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB20CC921FE75F30094D1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB20CD421FE75F30094D1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB20CAF21FE75E50094D1E4 = {
+			isa = PBXGroup;
+			children = (
+				CEB20CBA21FE75E60094D1E4 /* TIp APP */,
+				CEB20CCF21FE75F30094D1E4 /* TIp APPTests */,
+				CEB20CDA21FE75F30094D1E4 /* TIp APPUITests */,
+				CEB20CB921FE75E60094D1E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB20CB921FE75E60094D1E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB20CB821FE75E60094D1E4 /* TIp APP.app */,
+				CEB20CCC21FE75F30094D1E4 /* TIp APPTests.xctest */,
+				CEB20CD721FE75F30094D1E4 /* TIp APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB20CBA21FE75E60094D1E4 /* TIp APP */ = {
+			isa = PBXGroup;
+			children = (
+				CEB20CBB21FE75E60094D1E4 /* AppDelegate.swift */,
+				CEB20CBD21FE75E60094D1E4 /* ViewController.swift */,
+				CEB20CBF21FE75E60094D1E4 /* Main.storyboard */,
+				CEB20CC221FE75F20094D1E4 /* Assets.xcassets */,
+				CEB20CC421FE75F20094D1E4 /* LaunchScreen.storyboard */,
+				CEB20CC721FE75F20094D1E4 /* Info.plist */,
+			);
+			path = "TIp APP";
+			sourceTree = "<group>";
+		};
+		CEB20CCF21FE75F30094D1E4 /* TIp APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB20CD021FE75F30094D1E4 /* TIp_APPTests.swift */,
+				CEB20CD221FE75F30094D1E4 /* Info.plist */,
+			);
+			path = "TIp APPTests";
+			sourceTree = "<group>";
+		};
+		CEB20CDA21FE75F30094D1E4 /* TIp APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB20CDB21FE75F30094D1E4 /* TIp_APPUITests.swift */,
+				CEB20CDD21FE75F30094D1E4 /* Info.plist */,
+			);
+			path = "TIp APPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB20CB721FE75E60094D1E4 /* TIp APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB20CE021FE75F30094D1E4 /* Build configuration list for PBXNativeTarget "TIp APP" */;
+			buildPhases = (
+				CEB20CB421FE75E60094D1E4 /* Sources */,
+				CEB20CB521FE75E60094D1E4 /* Frameworks */,
+				CEB20CB621FE75E60094D1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TIp APP";
+			productName = "TIp APP";
+			productReference = CEB20CB821FE75E60094D1E4 /* TIp APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEB20CCB21FE75F30094D1E4 /* TIp APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB20CE321FE75F30094D1E4 /* Build configuration list for PBXNativeTarget "TIp APPTests" */;
+			buildPhases = (
+				CEB20CC821FE75F30094D1E4 /* Sources */,
+				CEB20CC921FE75F30094D1E4 /* Frameworks */,
+				CEB20CCA21FE75F30094D1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB20CCE21FE75F30094D1E4 /* PBXTargetDependency */,
+			);
+			name = "TIp APPTests";
+			productName = "TIp APPTests";
+			productReference = CEB20CCC21FE75F30094D1E4 /* TIp APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEB20CD621FE75F30094D1E4 /* TIp APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB20CE621FE75F30094D1E4 /* Build configuration list for PBXNativeTarget "TIp APPUITests" */;
+			buildPhases = (
+				CEB20CD321FE75F30094D1E4 /* Sources */,
+				CEB20CD421FE75F30094D1E4 /* Frameworks */,
+				CEB20CD521FE75F30094D1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB20CD921FE75F30094D1E4 /* PBXTargetDependency */,
+			);
+			name = "TIp APPUITests";
+			productName = "TIp APPUITests";
+			productReference = CEB20CD721FE75F30094D1E4 /* TIp APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB20CB021FE75E50094D1E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = User;
+				TargetAttributes = {
+					CEB20CB721FE75E60094D1E4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CEB20CCB21FE75F30094D1E4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CEB20CB721FE75E60094D1E4;
+					};
+					CEB20CD621FE75F30094D1E4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CEB20CB721FE75E60094D1E4;
+					};
+				};
+			};
+			buildConfigurationList = CEB20CB321FE75E50094D1E4 /* Build configuration list for PBXProject "TIp APP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEB20CAF21FE75E50094D1E4;
+			productRefGroup = CEB20CB921FE75E60094D1E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB20CB721FE75E60094D1E4 /* TIp APP */,
+				CEB20CCB21FE75F30094D1E4 /* TIp APPTests */,
+				CEB20CD621FE75F30094D1E4 /* TIp APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB20CB621FE75E60094D1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB20CC621FE75F20094D1E4 /* LaunchScreen.storyboard in Resources */,
+				CEB20CC321FE75F20094D1E4 /* Assets.xcassets in Resources */,
+				CEB20CC121FE75E60094D1E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB20CCA21FE75F30094D1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB20CD521FE75F30094D1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB20CB421FE75E60094D1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB20CBE21FE75E60094D1E4 /* ViewController.swift in Sources */,
+				CEB20CBC21FE75E60094D1E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB20CC821FE75F30094D1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB20CD121FE75F30094D1E4 /* TIp_APPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB20CD321FE75F30094D1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB20CDC21FE75F30094D1E4 /* TIp_APPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEB20CCE21FE75F30094D1E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB20CB721FE75E60094D1E4 /* TIp APP */;
+			targetProxy = CEB20CCD21FE75F30094D1E4 /* PBXContainerItemProxy */;
+		};
+		CEB20CD921FE75F30094D1E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB20CB721FE75E60094D1E4 /* TIp APP */;
+			targetProxy = CEB20CD821FE75F30094D1E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEB20CBF21FE75E60094D1E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB20CC021FE75E60094D1E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEB20CC421FE75F20094D1E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB20CC521FE75F20094D1E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEB20CDE21FE75F30094D1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEB20CDF21FE75F30094D1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB20CE121FE75F30094D1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TIp APP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DSA.TIp-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEB20CE221FE75F30094D1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TIp APP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DSA.TIp-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEB20CE421FE75F30094D1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TIp APPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DSA.TIp-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TIp APP.app/TIp APP";
+			};
+			name = Debug;
+		};
+		CEB20CE521FE75F30094D1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TIp APPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DSA.TIp-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TIp APP.app/TIp APP";
+			};
+			name = Release;
+		};
+		CEB20CE721FE75F30094D1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TIp APPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DSA.TIp-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TIp APP";
+			};
+			name = Debug;
+		};
+		CEB20CE821FE75F30094D1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TIp APPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DSA.TIp-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TIp APP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB20CB321FE75E50094D1E4 /* Build configuration list for PBXProject "TIp APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB20CDE21FE75F30094D1E4 /* Debug */,
+				CEB20CDF21FE75F30094D1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB20CE021FE75F30094D1E4 /* Build configuration list for PBXNativeTarget "TIp APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB20CE121FE75F30094D1E4 /* Debug */,
+				CEB20CE221FE75F30094D1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB20CE321FE75F30094D1E4 /* Build configuration list for PBXNativeTarget "TIp APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB20CE421FE75F30094D1E4 /* Debug */,
+				CEB20CE521FE75F30094D1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB20CE621FE75F30094D1E4 /* Build configuration list for PBXNativeTarget "TIp APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB20CE721FE75F30094D1E4 /* Debug */,
+				CEB20CE821FE75F30094D1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB20CB021FE75E50094D1E4 /* Project object */;
+}
